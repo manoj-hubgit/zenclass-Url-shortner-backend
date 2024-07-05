@@ -11,7 +11,7 @@ try {
         return res.json(url);
     }
   const urlCode=shortid.generate();
-    const shortUrl=`https://zenclass-url-shortner-backend.onrender.com/api/url/${urlCode}`;
+    const shortUrl=`https://shortner-backend-c4dw.onrender.com/api/url/${urlCode}`;
     url = new Url({
         longUrl,
         shortUrl,
